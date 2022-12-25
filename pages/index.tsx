@@ -18,7 +18,7 @@ const Home: NextPage<Props> = ({ issues }) => {
             <Time dateTime={issue.created_at} />
             <Link href={`/articles/${issue.number}`}>{issue.title}</Link>
             <p>
-              {`/articles/${issue.number}`}>{issue.title}
+              {`/articles/${issue.number}`}>'{issue.title}'
             <\p>
           </li>
         ))}
