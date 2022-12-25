@@ -16,3 +16,4 @@ Blog template to use GitHub Issues as article editor.
 
 ### Link
 https://r7kamura.com/articles/2022-05-03-github-issues-as-blog
+https://toya-mimura.github.io/letmetestgialog_pub/
