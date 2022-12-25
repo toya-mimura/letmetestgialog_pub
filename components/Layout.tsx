@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <nav>
           <p>
             <Link href="/">
-              <a className="font-bold text-gray-900 visited:text-gray-900 dark:text-gray-300 dark:visited:text-gray-300">
+              <a className="text-gray-900 visited:text-gray-900 dark:text-gray-300 dark:visited:text-gray-300">
                 {siteTitle}
               </a>
             </Link>
