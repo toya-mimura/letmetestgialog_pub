@@ -26,7 +26,6 @@ body {
 a {
   color: rgb(45, 46, 48);
 
-  @apply underline;
   @apply dark:text-blue-400;
 
   &:visited {
