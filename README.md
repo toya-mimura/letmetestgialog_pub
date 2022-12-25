@@ -13,3 +13,6 @@ Blog template to use GitHub Issues as article editor.
 
 1. Create an issue.
 2. Wait a few minutes and your blog will be updated.
+
+### Link
+https://r7kamura.com/articles/2022-05-03-github-issues-as-blog
