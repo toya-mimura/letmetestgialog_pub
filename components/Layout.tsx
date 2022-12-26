@@ -9,9 +9,6 @@ export default function Layout({ children }: { children: ReactNode }) {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-800 dark:text-gray-100">
       <Head>
         <title>{siteTitle}</title>
-        <p>
-          'てすと3'
-        </p>
       </Head>
       <header className="container mx-auto max-w-2xl px-8 py-12">
         <nav>
@@ -23,12 +20,12 @@ export default function Layout({ children }: { children: ReactNode }) {
             </Link>
           </p>
           <p>
-            {'てすと1'}
+            {'toyaさんの「壁打ち」部屋です。'}
+          </p>
+          <p>
+            {'只今編集中。詳細がある場合は[続き有]などと文頭・文末に記載。'}
           </p>
         </nav>
-        <p>
-          {'てすと2'}
-        </p>
       </header>
       <main className="container mx-auto max-w-2xl px-8 py-12 shadow-md bg-white dark:bg-gray-900">
         {children}
