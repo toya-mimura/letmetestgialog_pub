@@ -20,9 +20,12 @@ export default function Layout({ children }: { children: ReactNode }) {
             </Link>
           </p>
           <p>
-            'てすと'
+            {'てすと1'}
           </p>
         </nav>
+        <p>
+          {'てすと2'}
+        </p>
       </header>
       <main className="container mx-auto max-w-2xl px-8 py-12 shadow-md bg-white dark:bg-gray-900">
         {children}
