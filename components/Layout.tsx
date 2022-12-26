@@ -9,6 +9,9 @@ export default function Layout({ children }: { children: ReactNode }) {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-800 dark:text-gray-100">
       <Head>
         <title>{siteTitle}</title>
+        <p>
+          'てすと3'
+        </p>
       </Head>
       <header className="container mx-auto max-w-2xl px-8 py-12">
         <nav>
