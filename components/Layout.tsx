@@ -19,6 +19,9 @@ export default function Layout({ children }: { children: ReactNode }) {
               </a>
             </Link>
           </p>
+          <p>
+            'てすと'
+          </p>
         </nav>
       </header>
       <main className="container mx-auto max-w-2xl px-8 py-12 shadow-md bg-white dark:bg-gray-900">
