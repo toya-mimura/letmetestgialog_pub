@@ -23,16 +23,20 @@ const Home: NextPage<Props> = ({ issues }) => {
         ))}
       </ol>
     </section>
+  );
+};
+const Home: NextPage<Props> = ({ issues }) => {
+  return (
     <section>
-     <ol className="flex flex-col gap-12">
-       {issues.map((issueComment) => (
-         <li key={issue.number}>
-           <Time dateTime={issue.created_at} />
-           <Link href={`/articles/${issue.number}`}>{issue.title}</Link>
-         </li>
-       ))}
-     </ol>
-   </section>
+      <ol className="flex flex-col gap-12">
+        {issues.map((issue) => (
+          <li key={issue.number}>
+            <Time dateTime={issue.created_at} />
+            <Link href={`/articles/${issue.number}`}>{issue.title}</Link>
+          </li>
+        ))}
+      </ol>
+    </section>
   );
 };
 
