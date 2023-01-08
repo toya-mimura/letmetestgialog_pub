@@ -24,8 +24,6 @@ const Home: NextPage<Props> = ({ issues }) => {
     </section>
   );
 };
-  );
-};
 
 export default Home;
 
