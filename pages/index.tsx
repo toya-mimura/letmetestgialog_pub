@@ -9,7 +9,6 @@ type Props = {
 };
 
 type Issue = any;
-type IssueComment = any;
 
 const Home: NextPage<Props> = ({ issues }) => {
   return (
@@ -25,18 +24,6 @@ const Home: NextPage<Props> = ({ issues }) => {
     </section>
   );
 };
-const Home: NextPage<Props> = ({ issues }) => {
-  return (
-    <section>
-      <ol className="flex flex-col gap-12">
-        {issues.map((issue) => (
-          <li key={issue.number}>
-            <Time dateTime={issue.created_at} />
-            <Link href={`/articles/${issue.number}`}>{issue.title}</Link>
-          </li>
-        ))}
-      </ol>
-    </section>
   );
 };
 
