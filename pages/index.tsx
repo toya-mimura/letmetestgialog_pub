@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Link from "next/link";
 import { listIssues } from "../lib/issue";
+import { listIssueComments } from "../lib/issue";
 import Time from "../components/Time";
 
 type Props = {
@@ -8,6 +9,7 @@ type Props = {
 };
 
 type Issue = any;
+type IssueComment = any;
 
 const Home: NextPage<Props> = ({ issues }) => {
   return (
@@ -21,6 +23,16 @@ const Home: NextPage<Props> = ({ issues }) => {
         ))}
       </ol>
     </section>
+    <section>
+     <ol className="flex flex-col gap-12">
+       {issues.map((issueComment) => (
+         <li key={issue.number}>
+           <Time dateTime={issue.created_at} />
+           <Link href={`/articles/${issue.number}`}>{issue.title}</Link>
+         </li>
+       ))}
+     </ol>
+   </section>
   );
 };
 
