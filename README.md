@@ -1,4 +1,4 @@
-# Gialog
+# Gialog（学習中）
 
 Blog template to use GitHub Issues as article editor.
 
@@ -18,3 +18,10 @@ Blog template to use GitHub Issues as article editor.
 https://r7kamura.com/articles/2022-05-03-github-issues-as-blog
 
 https://toya-mimura.github.io/letmetestgialog_pub/
+
+### for Study
+https://qiita.com/thesugar/items/01896c1faa8241e6b1bc
+
+https://dev.classmethod.jp/articles/introduction-to-nextjs/
+
+https://nextjs.org/learn/foundations/about-nextjs
